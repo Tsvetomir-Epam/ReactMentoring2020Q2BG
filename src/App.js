@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./App.scss";
 
 class App extends Component {
   constructor() {
@@ -7,7 +8,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="App">
         <h1>Hello from react app created from scratch</h1>
       </div>
     );

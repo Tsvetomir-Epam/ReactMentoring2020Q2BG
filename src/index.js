@@ -1,6 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
+
+//Redux
+import { Provider } from "react-redux";
+import store from "./redux/store";
+
+//Routing
+import { BrowserRouter as Router } from "react-router-dom";
+import Routing from "./routing";
 
 const wrapper = document.getElementById("container");
-wrapper ? ReactDOM.render(<App />, wrapper) : false;
+ReactDOM.render(
+  //   <Provider store={store}>
+  <Router>
+    <Routing />
+  </Router>,
+  //   </Provider>,
+  wrapper
+);
