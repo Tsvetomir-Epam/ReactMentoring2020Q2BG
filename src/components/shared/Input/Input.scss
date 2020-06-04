@@ -1,0 +1,13 @@
+@import "../../../styles/styles.scss";
+
+.Input {
+  input {
+    border-radius: $padding-small;
+    font-size: 1.5em;
+    padding: $padding-small;
+    background-color: $transperant;
+    color: $accent-2;
+    border: none;
+    width: 100%;
+  }
+}

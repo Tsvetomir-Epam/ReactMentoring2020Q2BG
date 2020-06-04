@@ -1,0 +1,26 @@
+@import "../../../styles/styles.scss";
+
+.Button { 
+  font-weight: bold;
+  font-size: 1.5em;
+  cursor: pointer;
+
+  .transperant {
+    background-color: $transperant;
+    color: $secondary;
+    padding: $padding-small;
+    border-radius: $padding-small;
+  }
+
+  .filled {
+    background-color: $secondary;
+    color: $accent-2;
+    padding: $padding-small;
+    border-radius: $padding-small;
+  }
+
+  :hover {
+    background-color: $primary;
+    border-color: $primary;
+  }
+}
