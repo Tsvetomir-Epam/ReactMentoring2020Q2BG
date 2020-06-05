@@ -4,6 +4,7 @@ import "./App.scss";
 //Components
 import Header from "./components/HeaderComponent/HeaderComponent";
 import Content from "./components/ContentComponent/ContentComponent";
+import Footer from "./components/FooterComponent/FooterComponent";
 
 class App extends Component {
   constructor() {
@@ -15,6 +16,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Content />
+        <Footer />
       </div>
     );
   }

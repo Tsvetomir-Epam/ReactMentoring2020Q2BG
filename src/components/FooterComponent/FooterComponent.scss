@@ -1,0 +1,17 @@
+@import "../../styles/styles.scss";
+
+.Footer {
+    display: flex;
+    justify-content: center;
+    background: $primary;
+
+    .footer-logo{
+        margin: $margin-regular 0;
+        font-size: 1.5em;
+        color: $secondary;
+
+        :first-child{
+            font-weight: bold;
+        }
+    }
+}

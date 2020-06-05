@@ -1,7 +1,7 @@
 @import "../../styles/styles.scss";
 
 .Header {
-    height: 30rem;
+  height: 25rem;
   .background {
     background-image: url("../../../assets/images/posters.jpg");
     position: absolute;
@@ -10,7 +10,7 @@
     z-index: 1;
     display: block;
     width: 100vw;
-    height: 30rem;
+    height: 25rem;
     filter: blur(5px) brightness(20%);
     -webkit-filter: blur(5px) brightness(20%);
   }
@@ -48,6 +48,15 @@
         width: 100%;
         margin-right: $margin-small;
       }
+    }
+  }
+}
+
+@include phone-only {
+  .Header {
+    height: 20rem;
+    .background {
+      height: 20rem;
     }
   }
 }
