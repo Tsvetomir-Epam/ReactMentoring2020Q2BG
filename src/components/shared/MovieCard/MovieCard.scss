@@ -1,0 +1,39 @@
+@import "../../../styles/styles.scss";
+
+.MovieCard {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+
+  .poster {
+    .poster-image {
+      width: 500px;
+      height: 700px;
+    }
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    margin: $margin-regular 0;
+    color: $accent-2;
+    .title-genre {
+      display: flex;
+      flex-direction: column;
+
+      .title {
+        font-weight: bold;
+      }
+    }
+
+    .year {
+        display: flex;
+        align-self: baseline;
+        border: 2px solid $primary;
+        padding: 0 $padding-small;
+        border-radius: 5px;
+    }
+  }
+}

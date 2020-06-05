@@ -1,6 +1,11 @@
 import React, { Component } from "react";
 import "./App.scss";
 
+//Components
+import Header from "./components/HeaderComponent/HeaderComponent";
+import Content from "./components/ContentComponent/ContentComponent";
+import Footer from "./components/FooterComponent/FooterComponent";
+
 class App extends Component {
   constructor() {
     super();
@@ -9,7 +14,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hello from react app created from scratch</h1>
+        <Header />
+        <Content />
+        <Footer />
       </div>
     );
   }
