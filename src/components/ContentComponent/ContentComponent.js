@@ -77,7 +77,7 @@ class ContentComponent extends Component {
                   img="https://www.mauvais-genres.com/20615/alien-covenant-movie-poster-15x21-in-2017-ridley-scott-michael-fassbender.jpg"
                   title="Alien"
                   genre="Horror"
-                  year="1979"
+                  year={1979}
                 />
               </div>
             </Col>
@@ -87,7 +87,7 @@ class ContentComponent extends Component {
                   img="https://i.pinimg.com/originals/64/94/68/649468d4fd03bbf88f0f6d968e5b8946.jpg"
                   title="Phone booth"
                   genre="Action"
-                  year="2002"
+                  year={2002}
                 />
               </div>
             </Col>
@@ -98,7 +98,7 @@ class ContentComponent extends Component {
                   img="https://i.pinimg.com/originals/cf/de/36/cfde369eea2a81535f8ec5be1b098349.jpg"
                   title="Fast 5"
                   genre="Action"
-                  year="2012"
+                  year={2012}
                 />
               </div>
             </Col>
@@ -108,7 +108,7 @@ class ContentComponent extends Component {
                   img="https://m.media-amazon.com/images/M/MV5BZGQ2YmMxZmEtYjI5OS00NzlkLTlkNTEtYWMyMzkyMzc2MDU5XkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg"
                   title="Chernobyl"
                   genre="Documentary"
-                  year="2019"
+                  year={2019}
                 />
               </div>
             </Col>
@@ -118,7 +118,7 @@ class ContentComponent extends Component {
                   img="https://cdn.ozone.bg/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/z/a/7234c6364e45cd8f73f32eed92a2ea1a/zakrilnikat-2-blu-ray-30.jpg"
                   title="The Equalizer 2"
                   genre="Action"
-                  year="2018"
+                  year={2018}
                 />
               </div>
             </Col>
