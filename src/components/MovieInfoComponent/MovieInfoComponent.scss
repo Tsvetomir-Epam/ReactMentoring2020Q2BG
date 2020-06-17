@@ -1,0 +1,55 @@
+@import "../../styles/styles.scss";
+
+.MovieInfo {
+  margin-bottom: $margin-large;
+
+  .info {
+    margin-top: $margin-large;
+    .poster {
+      img {
+        max-width: 400px;
+        width: 100%;
+        height: 600px;
+      }
+    }
+
+    .movie-content {
+      .title-score {
+          margin-bottom: $margin-large;
+        .title {
+          font-size: 3em;
+          margin-right: $margin-regular;
+        }
+
+        .score {
+          font-size: 2em;
+          font-weight: lighter;
+          color: rgb(121, 255, 121);
+          border: 1px solid $accent-2;
+          border-radius: 100px;
+          padding: $padding-small;
+        }
+      }
+
+      .aditional-info{
+          font-size: 1.5em;
+          color: $accent-1;
+          margin-bottom: $margin-large;
+      }
+
+      .year-length{
+         color: $secondary;
+         font-size: 2em;
+         font-weight: lighter;
+         margin-bottom: $margin-large;
+          .year{
+            margin-right: $margin-regular;
+          }
+      }
+
+      .description{
+        color: $accent-1;
+      }
+    }
+  }
+}

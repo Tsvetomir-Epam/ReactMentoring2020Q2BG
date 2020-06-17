@@ -1,17 +1,11 @@
-import React, { Component } from "react";
+import React from "react";
 
-class NoMatchComponent extends Component {
-  constructor() {
-    super();
-  }
-
-  render() {
-    return (
-      <div>
-        <h1>404 Not Found!</h1>
-      </div>
-    );
-  }
+function NoMatchComponent(props) {
+  return (
+    <div>
+      <h1>404 Not Found!</h1>
+    </div>
+  );
 }
 
 export default NoMatchComponent;

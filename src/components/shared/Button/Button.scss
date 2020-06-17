@@ -8,14 +8,14 @@
   .transperant {
     background-color: $transperant;
     color: $secondary;
-    padding: $padding-small;
+    padding: $padding-small $padding-regular;
     border-radius: $padding-small;
   }
 
   .filled {
     background-color: $secondary;
     color: $accent-2;
-    padding: $padding-small;
+    padding: $padding-small $padding-regular;
     border-radius: $padding-small;
   }
 

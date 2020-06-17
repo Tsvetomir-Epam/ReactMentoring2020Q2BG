@@ -9,6 +9,7 @@ function Routing() {
   return (
     <Switch>
       <Route path="/" exact component={App}></Route>
+      <Route path="/movie" component={App}></Route>
       <Route component={NoMatchComponent} />
     </Switch>
   );
