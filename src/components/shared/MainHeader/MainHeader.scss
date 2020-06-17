@@ -1,0 +1,19 @@
+@import "../../../styles/styles.scss";
+
+.MainHeader {
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: $margin-regular;
+
+    .logo {
+      color: $secondary;
+      font-size: 2em;
+      :first-child {
+        font-weight: bold;
+      }
+      cursor: pointer;
+    }
+  }
+}
